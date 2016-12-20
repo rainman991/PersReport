@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+    <link href="css/main.css" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<script>
+    $(document).ready(function(){
+    $('a[href="#section3"]').click(function(){
+        $('li.tab').removeClass('active');
+        $('> li.tab', this).addClass('active');
+    });
+    $('a[href="#section2"]').click(function(){
+        $('li.tab').removeClass('active');
+        $('> li.tab', this).addClass('active');
+    });
+    $('a[href="#section1"]').click(function(){
+        $('li.tab').removeClass('active');
+        $('> li.tab', this).addClass('active');
+
+    });
+});
+</script>
+</head>
+<body>
+   <!-- TABS-->
+  <div class="labels ">
+      <ul class="tab">
+        <a href="#section3" class="page-scroll"><li class="tab">Recommandations</li></a>
+        <a href="#section3" class="page-scroll"><li class="tab">Style</li></a>
+        <a href="#section2" class="page-scroll"><li class="tab">Secondaire</li></a>
+        <a href="#section1" class="page-scroll" ><li class="tab active">Primaire</li></a>
+      </ul>
+   
+  </div>
+<!--TABS-->
+<div class="container">
+    <div id="header">
+        <img src="img/intro.png" ></img>
+    </div>
+    <div class="section"id="name">
+        <h2>John Smith<h4>July 17th,2015</h4></h2>
+<!--         <p >July 17th,2015</p> 
+ -->    </div>
+
+    <div class="section"style="margin-top:200px;">
+        <table>
+            <tr><td style="font-size:18pt;color:#8b8d90;padding:5px 80px">Your Personality Type</td></tr>
+            <tr ><td class="cover">General Creatif/Passionne/Extraverti</td></tr>
+            <!-- <tr><td  style="font-size:18pt;color:#8b8d90;padding:5px 20px">Overall Percentage</td></tr> -->
+        </table>
+    </div>
+
+    <div class="section" id="section1">
+        <table style="width:21cm">
+          <tr>
+            <td class="pic"></td>
+              <td class="text"><h3>Piste de réflexion:</h3>
+                  <p class="text">Puisque le Profil Général est votre profil primaire, vous devez absolument y porter attention lorsque vous prendrez une décision en lien avec un changement de carrière.  Cette facette de vous doit absolument être satisfaite afin que vous soyez heureux au travail à court, moyen et long terme.</p>
+                  
+              </td>
+          </tr>
+          <tr>
+            <td class="pic"><img style="margin:0" src="img/lamp.png"></img></td>
+              <td class="text"><h3>Votre Profil Secondaire: CRÉATIF PASSIONNÉ</h3>
+                  <p class="text">Le créatif passionné est un individu particulièrement créatif, intuitif, empathique et humain qui a besoin d’un environnement où on le supporte afin qu’il puisse utiliser sa grande créativité.  Désirant avoir de l’impact dans la vie des gens qui l’entourent, il s’ait bien desceller les motivations des gens qu’il dirige et comment utiliser son pouvoir de persuasion. </p>
+                  <p class="text">Maitre de l’art de communication, le créatif s’ait vendre ses idées et tirer le meilleur des gens avec qui il travaille.  Porte-parole enthousiaste de l’entreprise ou des causes qu’il choisit de supporter, son charisme emporte littéralement les gens sous son charme.   Il offre des polarités intéressantes, étant autant capable d’être intensément drôle et irrévérencieux qu’autoritaire et sérieux lorsque le moment le nécessite. </p>
+              </td>
+          </tr>
+          <tr>
+          </tr>
+        </table>
+    </div>
+     <div class="section" id="section2">
+        <table style="width:21cm">
+          <tr>
+            <td class="pic"></td>
+              <td class="text"><h3>Piste de réflexion:</h3>
+                  <p class="text">Puisque le Profil Créatif-passionné est votre profil secondaire, vous devez y porter attention mais à moins grande échelle que votre profil primaire.  Vos besoins de  « Général » seront plus forts que ceux de votre côté « Créatif passionné ». </p>
+                  
+              </td>
+          </tr>
+          <tr>
+            <td class="pic"><img style="margin:0" src="img/qmark.png"></img></td>
+              <td class="text"><h3>Questions à vous poser: </h3>
+                <p class="text">
+                  <ul>
+                    <li>Si vous êtes présentement à l’emploi, évaluez si le contexte actuel vous permet d’agir en lien avec votre profil primaire et secondaire. </li>
+                    <li>Pensez aux divers postes que vous avez occupé au cours de votre carrière.  Lesquels avez vous préféré? Pouviez-vous agir et évoluer en lien avec votre profil de personnalité?</li>
+                    <li>Pensez à vos pires expériences de travail. Quels aspects de votre profil primaire de Général vivaient des contradictions au travail?  Votre profil Général ? Créatif?  À quelle fréquence? </li>
+                  </ul>
+                </p>
+              </td>
+          </tr>
+          <tr>
+          </tr>
+        </table>
+    </div>
+        <div class="section" id="section3">
+        <table style="width:21cm">
+          <tr>
+            <td class="pic"></td>
+              <td class="text"><h3>Piste de réflexion:</h3>
+                  <p class="text">Puisque le Profil Général est votre profil primaire, vous devez absolument y porter attention lorsque vous prendrez une décision en lien avec un changement de carrière.  Cette facette de vous doit absolument être satisfaite afin que vous soyez heureux au travail à court, moyen et long terme.</p>
+                  
+              </td>
+          </tr>
+          <tr>
+            <td class="pic"><img style="margin:0" src="img/lamp.png"></img></td>
+              <td class="text"><h3>Votre Profil Secondaire: CRÉATIF PASSIONNÉ</h3>
+                  <p class="text">Le créatif passionné est un individu particulièrement créatif, intuitif, empathique et humain qui a besoin d’un environnement où on le supporte afin qu’il puisse utiliser sa grande créativité.  Désirant avoir de l’impact dans la vie des gens qui l’entourent, il s’ait bien desceller les motivations des gens qu’il dirige et comment utiliser son pouvoir de persuasion. </p>
+                  <p class="text">Maitre de l’art de communication, le créatif s’ait vendre ses idées et tirer le meilleur des gens avec qui il travaille.  Porte-parole enthousiaste de l’entreprise ou des causes qu’il choisit de supporter, son charisme emporte littéralement les gens sous son charme.   Il offre des polarités intéressantes, étant autant capable d’être intensément drôle et irrévérencieux qu’autoritaire et sérieux lorsque le moment le nécessite. </p>
+              </td>
+          </tr>
+          <tr>
+          </tr>
+        </table>
+    </div>
+
+
+<div id="footer">
+    <table class="foot">
+        <tr >
+            <td class="ftext">Powered by <span style="color:#2ba3d5">Workland</span> 2015</td>
+            <td class="pag" ><span style="color:#2ba3d5">Peronality Report</span> / John Smith</td> 
+        </tr>
+    </table>
+</div>
+</div><!-- Container-->
+  <script src="js/creative.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+</body>
+</html>
